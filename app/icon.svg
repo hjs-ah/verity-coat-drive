@@ -1,0 +1,15 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="coatBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E39A5B"/>
+      <stop offset="100%" stop-color="#7A3E17"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#2B1A10"/>
+  <!-- simple coat silhouette: collar, sleeves, body, centre seam -->
+  <path d="M24 14 L32 21 L40 14 L50 20 L56 36 L48 39 L46 30 L46 52 L18 52 L18 30 L16 39 L8 36 L14 20 Z" fill="url(#coatBody)"/>
+  <path d="M32 21 L32 52" stroke="#2B1A10" stroke-width="2" stroke-linecap="round" opacity="0.55"/>
+  <circle cx="35.5" cy="31" r="1.4" fill="#2B1A10" opacity="0.7"/>
+  <circle cx="35.5" cy="38" r="1.4" fill="#2B1A10" opacity="0.7"/>
+  <circle cx="35.5" cy="45" r="1.4" fill="#2B1A10" opacity="0.7"/>
+</svg>
